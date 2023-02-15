@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla empelaos</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tbody id="lista-empleados">
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript">
+        let taulaBody = document.getElementById("lista-empleados");
+        let empleadosList = [
+            {"id":1,"name": "Pere", "surname": "Ferrer", "telefono": "630-20-23-56", "especialidad": "seguridad informatica", "Departament": "Sistemas"  },
+            {"id":2,"name": "Joan", "surname": "Martin", "telefono": "673-77-38-59", "especialidad": "Phyton", "Departament": "Desenvolupament" },
+            {"id":3,"name": "Marc", "surname": "Ramirez", "telefono": "622-51-67-23","especialidad": "Java", "Department": "Desenvolupament" },
+            {"id":4,"name": "Jesus", "surname": "Alvarado", "telefono": "629-21-19-37", "especialidad": "Nóminas","Department":"Administración" }
+        ];
+        for (let empleados of empleadosList) {
+            let fila = `
+                    <tr>
+                        <th scope= "row">${empleado.id}</th>
+                        <th>${empleado.name} ${empleado.surname}</th>
+                        <th>${empleado.telefono}</th>
+                        <th>${empleado.especialidad.toString()}</th>
+                        <th>${empleado.departament}</th>
+                    </tr>
+                `;
+            tablaBody.innerHTML += fila;
+        }
+    </script>
+</body>
+</html>

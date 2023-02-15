@@ -1,0 +1,9 @@
+{
+    "id":1,
+    "titulo":"El rey Leon",
+    "sinapsis":"Ambientada en la sabana africana donde ha nacido el futuro rey. Simba idolatra a su padre, el rey Mufasa, y se toma muy en serio su propio destino real. Pero en el reino no todos celebran la llegada del nuevo cachorro. Scar, el hermano de Mufasa y antiguo heredero al trono, tiene sus propios planes. La batalla por Pride Rock está asolada por la traición, la tragedia y el drama, y termina con el exilio de Simba. Con la ayuda de un curioso par de nuevos amigos, Simba tendrá que aprender a madurar y a recuperar lo que le pertenece por derecho.",
+    "genero":"Dibujos animados",
+    "edad":3,
+    "estrena": false,
+    "sesiones":["19:00","21:00","23.00"]
+}

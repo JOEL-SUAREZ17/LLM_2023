@@ -1,0 +1,17 @@
+{
+    "id":1,
+    "nombre":"Alto Elfo",
+    "tipo":"Épico",
+    "rango": 5,
+    "nivel": 1,
+    "habilidad":{
+    "ataque":20,
+    "defensa": 5,
+    "velocidad": 3,
+    "resislencia": 7
+},
+"equipo":[
+    {"tipo":"escudo", "nombre":"Escudo del Inframundo","puntos":5, "img":"escudo.jpg"},
+    {"tipo":"arma", "nombre":"Espada pesada del dragon","puntos":80}
+]
+}

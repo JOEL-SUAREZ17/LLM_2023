@@ -1,0 +1,18 @@
+[
+    {
+    "id":1,
+    "name": "Joel",
+    "surname": "Suárez",
+    "date":"31-10-2004",
+    "score":999999
+
+},
+{
+    "id":2,
+    "name": "Marcos",
+    "surname": "Alvarado",
+    "date":"19-12-2003",
+    "score":23567
+
+}
+]
